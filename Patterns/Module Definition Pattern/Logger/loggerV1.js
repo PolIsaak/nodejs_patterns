@@ -1,3 +1,9 @@
+/**
+ * Module using named exports pattern
+ * @param {string} message 
+ * @param {string} level
+ * @returns {string}
+ */
 const formatMessage = (message, level) => {
   return `[${level.toUpperCase()}] ${new Date().toISOString()}: ${message}`
 }

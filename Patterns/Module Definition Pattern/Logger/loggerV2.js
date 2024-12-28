@@ -1,3 +1,7 @@
+/**
+ * Module using substack pattern to export a function
+ * @param {string} message 
+ */
 module.exports = (message) => {
 	console.log(`info: ${message}`)
 }
